@@ -14,7 +14,7 @@ import {
 import { motion } from 'framer-motion'
 
 import { useCart } from '../context/CartContext'
-import { useWishlist } from '../context/WishlistContext'
+import { useWishlist } from '../context/WishlistContext.jsx'
 import { useTheme } from '../context/ThemeContext'
 
 const Navbar = () => {

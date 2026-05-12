@@ -7,10 +7,9 @@ import { BrowserRouter } from 'react-router-dom'
 import App from './App'
 import './index.css'
 
-import { CartProvider } from './context/CartContext'
-import { WishlistProvider } from './context/WishlistContext'
-import { ThemeProvider } from './context/ThemeContext'
-
+import { CartProvider } from './context/CartContext.jsx'
+import { WishlistProvider } from './context/WishlistContext.jsx'
+import { ThemeProvider } from './context/ThemeContext.jsx'
 import { Toaster } from 'react-hot-toast'
 
 ReactDOM.createRoot(
